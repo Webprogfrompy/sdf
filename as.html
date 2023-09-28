@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>site for test</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="{% static 'piska/css/maks.css'%}">
+  <style>
+    #h1 {
+	margin-left: 500px;
+	margin-top: 10px;
+	text-shadow: 10px 10px 10px black;
+}
+
+#a1 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin-left: 350px;
+	margin-top: 110px;
+	font-size: 20px;
+	color: white;
+}
+
+#a2 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	margin-left: 50px;
+	margin-top: 110px;
+	font-size: 20px;
+	color: white;
+}
+
+#a3 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin-left: 50px;
+	font-size: 20px;
+	color: white;
+}
+
+#a4 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin-left: 50px;
+	font-size: 20px;
+	color: white;
+}
+
+#a5 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	margin-left: 50px;
+	font-size: 20px;
+	color: white;
+}
+
+#a6 {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	margin-left: 50px;
+	font-size: 20px;
+	color: black;
+}
+
+  </style>
+</head>
+<body id="bb">
+
+	<h1 id="h1">This is site for hosting</h1>
+
+	<div id="a1" onclick="aa1()">
+		Black
+	</div>
+
+	<div id="a2" onclick="aa2()">
+		Blue
+	</div>
+
+	<div id="a3" onclick="aa3()">
+		Red
+	</div>
+
+	<div id="a4" onclick="aa4()">
+		Green
+	</div>
+
+	<div id="a5" onclick="aa5()">
+		Yellow
+	</div>
+
+	<div id="a6" onclick="aa6()">
+		white
+	</div>
+
+	<script>
+		function aa1() {
+			document.getElementById("bb").style.backgroundColor = "black";
+		}
+
+		function aa2() {
+			document.getElementById("bb").style.backgroundColor = "blue";
+		}
+
+		function aa3() {
+			document.getElementById("bb").style.backgroundColor = "red";
+		}
+
+		function aa4() {
+			document.getElementById("bb").style.backgroundColor = "green";
+		}
+
+		function aa5() {
+			document.getElementById("bb").style.backgroundColor = "yellow";
+		}
+
+		function aa6() {
+			document.getElementById("bb").style.backgroundColor = "white";
+		}
+	</script>
+
+</body>
+</html>
